@@ -1,0 +1,79 @@
+/* Add this CSS to your Studentdataadd.css file */
+
+/* Styling for the form container */
+.student-info-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the success message */
+.response-message {
+  text-align: center;
+  font-weight: bold;
+  color: green;
+  margin-top: 10px;
+}
+
+/* Styling for form fields and labels (you can customize these styles) */
+.form-group input
+{
+  width:50px;
+  
+}
+.form-group select
+{
+  width: 250px;
+}
+.form-group {
+  text-align:center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 50px;
+  flex-basis: 48%; /* Adjust the width of the form groups */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .student-info-form {
+    max-width: 100%; /* Full width on small screens */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .form-row .form-group {
+    flex-basis: 100%; /* Full width for form groups on small screens */
+  }
+}
